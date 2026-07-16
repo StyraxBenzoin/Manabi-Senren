@@ -4,6 +4,8 @@ This starter Japanese vocabulary [Anki](https://apps.ankiweb.net/) deck is simpl
 
 Manabi is an Anki deck made to introduce beginners to basic Japanese vocabulary, and Senren is customizable Anki note type for studying Japanese.
 
+![Example](docs/Manabi-Senren-back.png)
+
 ## Features
 
 Manabi Senren has all the features of both Manabi and Senren, so go check out their documentation using the links above.
