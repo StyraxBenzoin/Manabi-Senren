@@ -20,7 +20,7 @@ Download the deck [here](https://github.com/StyraxBenzoin/Manabi-Senren/releases
 
 ## Versions
 
-This version of Kaishi Senren is built with the following versions of Kaishi and Senren:
+This version of Manabi-Senren is built with the following versions of Manabi and Senren:
 
 - [Manabi v1.3](https://github.com/fafner8/Manabi/releases/tag/v1.3)
 - [Senren v5.1.0](https://github.com/BrenoAqua/Senren/releases/tag/v5.1.0)
