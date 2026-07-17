@@ -16,7 +16,7 @@ Manabi Senren has all the features of both Manabi and Senren, so go check out th
 
 ## Get started
 
-Download the deck, and [import it into Anki](https://docs.ankiweb.net/importing/packaged-decks.html).
+Download the deck [here](https://github.com/StyraxBenzoin/Manabi-Senren/releases/latest), and [import it into Anki](https://docs.ankiweb.net/importing/packaged-decks.html).
 
 ## Versions
 
