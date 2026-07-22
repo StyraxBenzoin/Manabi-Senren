@@ -22,5 +22,15 @@ Download the deck [here](https://github.com/StyraxBenzoin/Manabi-Senren/releases
 
 This version of Manabi-Senren is built with the following versions of Manabi and Senren:
 
-- [Manabi v1.3](https://github.com/fafner8/Manabi/releases/tag/v1.3)
+- [Manabi v1.5](https://github.com/fafner8/Manabi/releases/tag/v1.5)
 - [Senren v5.1.0](https://github.com/BrenoAqua/Senren/releases/tag/v5.1.0)
+
+## DIY
+If you want to convert the deck yourself:
+- First download and import [Senren](https://github.com/BrenoAqua/Senren) note type into Anki
+- Download [Manabi](https://github.com/fafner8/Manabi) and import to Anki to get the media files in your collection
+- Export the Manabi deck with "Notes in Plain Text (.txt)" selecting all checkboxes for inclusions 
+- Run `Manabi-Senren.py` on the exported `Manabi.txt` file. `Manabi-Senren.txt` will be created.
+- Import `Manabi-Senren.txt` into Anki
+- Use [backfill-anki-yomitan](https://github.com/Manhhao/backfill-anki-yomitan) with `Manabi_Backfill.json` from this repo (edit glossary to your desired dictionaries) to fill the missing Senren fields: "glossary", "pitchAccents", "pitchPositions", "pitchCategories", and "frequencies"
+- Done
