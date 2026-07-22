@@ -1,0 +1,24 @@
+{
+    "targets": {
+        "glossary": {
+            "handlebar": "{single-glossary-jitendexorg-2026-07-09},{single-glossary-小学館例解学習国語-第十二版}",
+            "replace": true
+        },
+       	"pitchAccents": {
+            "handlebar": "{pitch-accents}",
+            "replace": true
+        },
+        "pitchPositions": {
+            "handlebar": "{pitch-accent-positions}",
+            "replace": true
+        },
+        "pitchCategories": {
+            "handlebar": "{pitch-accent-categories}",
+            "replace": true
+        },
+        "frequencies": {
+            "handlebar": "{frequencies}",
+            "replace": true
+        }
+    }
+}
