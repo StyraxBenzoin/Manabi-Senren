@@ -94,7 +94,7 @@ def wrap_and_combine(sentence_col1, sentence_col2):
 senren_df["guid"] = manabi_df["guid"]
 senren_df["notetype"] = "Senren"
 senren_df["deck"] = "Manabi-Senren"
-senren_df["word"] = manabi_df["word"]
+senren_df["word"] = manabi_df["word"].str.replace(r'\([^)]*\)', '', regex=True) # strip any parenthesis so that backfill-anki-yomitan will work.
 senren_df["reading"] = manabi_df["word_hirigana"]
 senren_df["sentence"] = manabi_df.apply(wrap_and_combine("sentence", "sentence2"), axis=1)
 senren_df["sentenceFurigana"] = manabi_df.apply(wrap_and_combine("sentence_furigana", "sentence2_furigana"), axis=1)
