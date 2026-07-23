@@ -29,7 +29,8 @@ This version of Manabi-Senren is built with the following versions of Manabi and
 If you want to convert the deck yourself:
 - First download and import [Senren](https://github.com/BrenoAqua/Senren) note type into Anki
 - Download [Manabi](https://github.com/fafner8/Manabi) and import to Anki to get the media files in your collection
-- Export the Manabi deck with "Notes in Plain Text (.txt)" selecting all checkboxes for inclusions 
+- Export the Manabi deck with "Notes in Plain Text (.txt)" selecting all checkboxes for inclusions.
+- Delete the Manabi deck from Anki (media files will remain in your collection)
 - Run `Manabi-Senren.py` on the exported `Manabi.txt` file. `Manabi-Senren.txt` will be created.
 - Import `Manabi-Senren.txt` into Anki
 - Use [backfill-anki-yomitan](https://github.com/Manhhao/backfill-anki-yomitan) with `Manabi_Backfill.json` from this repo (edit glossary to your desired dictionaries) to fill the missing Senren fields: "glossary", "pitchAccents", "pitchPositions", "pitchCategories", and "frequencies"
