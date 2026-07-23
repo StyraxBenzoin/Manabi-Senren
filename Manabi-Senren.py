@@ -15,7 +15,7 @@ import pandas as pd
 # Load the file. EDIT TO MATCH YOUR FILENAME.
 input_file = "Manabi.txt"
 
-# Make a dataframe from the input file. Skip the first 3 rows as they are tags for Anki. We will add the tags later when writing the output.
+# Make a dataframe from the input file. Skip the first few rows as they are tags for Anki. We will add the tags later when writing the output.
 manabi_df = pd.read_csv(input_file, sep="\t", skiprows=(0, 1, 2, 3, 4, 5), header=None)
 manabi_df.columns = [
     "guid",
