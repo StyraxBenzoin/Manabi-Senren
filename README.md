@@ -10,7 +10,7 @@ Manabi is an Anki deck made to introduce beginners to basic Japanese vocabulary,
 
 Manabi Senren has all the features of both Manabi and Senren, so go check out their documentation using the links above.
 
-- Most cards have additional glossary entries from Jitendex, as well as monolingual entries and you can [change which of the shows up by default](https://brenoaqua.github.io/Senren/defnition_toggle/).
+- Most cards have additional glossary entries from Jitendex, as well as monolingual entries and you can [change which of them shows up by default](https://brenoaqua.github.io/Senren/defnition_toggle/).
 - Sentence on the front, notes and sentence translation on the back are expanded by default, but this can be changed in the note [preferences](https://brenoaqua.github.io/Senren/Preferences).
 - Pitch accents have been added from NHK and 大辞泉 pitch accent dictionaries. 
 
