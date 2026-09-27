@@ -37,6 +37,11 @@ manabi_df.columns = [
     "sentence2_audio",
     "notes",
     "frequency",
+    "pitch_accent",
+    "pitch_number",
+    "kanji_radicals",
+    "part_of_speech",
+    "picture",
     "tags",
 ]
 
@@ -103,19 +108,20 @@ senren_df["sentenceCard"] = ""  # No equivalent
 senren_df["audioCard"] = ""  # No equivalent
 senren_df["notes"] = manabi_df["notes"]
 senren_df["hint"] = ""  # No equivalent
-senren_df["picture"] = ""  # No equivalent
+senren_df["picture"] = manabi_df["picture"]
 senren_df["wordAudio"] = manabi_df["word_audio"]
-senren_df["sentenceAudio"] = senren_df["sentenceAudio"] = (manabi_df["sentence_audio"].fillna("") + manabi_df["sentence2_audio"].fillna(""))
+senren_df["sentenceAudio"] = (manabi_df["sentence_audio"].fillna("") + manabi_df["sentence2_audio"].fillna(""))
 senren_df["selectionText"] = ""  # No equivalent
 senren_df["definition"] = manabi_df["word_meaning"]
 senren_df["glossary"] = ""  # No equivalent
 senren_df["pitchAccents"] = ""  # No equivalent
+senren_df["pitchPositions"] = manabi_df["pitch_number"]
 senren_df["pitchCategories"] = ""  # No equivalent
 senren_df["frequencies"] = ""  # No equivalent
 senren_df["freqSort"] = manabi_df["frequency"].apply(lambda x: str(int(x)) if x % 1 == 0 else str(x)) # make zero decimals integer else keep float
-senren_df["miscInfo"] = ""  # No equivalent
+senren_df["miscInfo"] = manabi_df["kanji_radicals"]
 senren_df["dictionaryPreference"] = ""  # No equivalent
-senren_df["tags"] = "" 
+senren_df["tags"] = ""  
 
 # Create the Anki header rows
 headers = pd.DataFrame({
