@@ -23,7 +23,7 @@ Download the deck [here](https://github.com/StyraxBenzoin/Manabi-Senren/releases
 
 This version of Manabi-Senren is built with the following versions of Manabi and Senren:
 
-- [Manabi v1.8.2](https://github.com/fafner8/Manabi/releases/tag/v1.5)
+- [Manabi v1.8.2](https://github.com/fafner8/Manabi/releases/tag/v1.8.2)
 - [Senren v5.1.0](https://github.com/BrenoAqua/Senren/releases/tag/v5.1.0)
 
 ## DIY
